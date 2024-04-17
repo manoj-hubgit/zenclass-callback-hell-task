@@ -1,0 +1,34 @@
+let div=document.getElementById("countdown");
+setTimeout(()=>{
+    div.textContent=10;
+    setTimeout(()=>{
+        div.textContent=9;
+        setTimeout(()=>{
+            div.textContent=8;
+            setTimeout(()=>{
+                div.textContent=7;
+                setTimeout(()=>{
+                    div.textContent=6;
+                    setTimeout(()=>{
+                        div.textContent=5;
+                        setTimeout(()=>{
+                            div.textContent=4;
+                            setTimeout(()=>{
+                                div.textContent=3;
+                                setTimeout(()=>{
+                                    div.textContent=2;
+                                    setTimeout(()=>{
+                                        div.textContent=1;
+                                        setTimeout(()=>{
+                                            div.textContent= "Happy Independence Day";
+                                        },1000)
+                                    },1000)
+                                },1000)
+                            },1000)
+                        },1000)
+                    },1000)
+                },1000)
+            },1000)
+        },1000)
+    },1000)
+},1000)
